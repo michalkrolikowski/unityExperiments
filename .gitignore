@@ -1,0 +1,72 @@
+bin
+/build/
+__pycache__
+*.pyc
+StyleCopViolations.xml
+unity/Assets/StyleCop.Cache*
+EditorTestResults.xml
+
+*.keystore
+
+unity/Assets/Resources/distribution.txt*
+unity/Assets/Resources/variant.txt*
+unity/Assets/Resources/stage.txt*
+unity/Assets/Resources/source_revision.txt*
+unity/Assets/Resources/branch.txt*
+unity/Assets/Resources/build_time.txt*
+
+# Personal
+scraps/
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# Saved Android Packages
+*.apk
+
+# ============= #
+# IDE generated
+# ============= #
+.idea/
+*.userprefs
+*.swo
+*.swp
+ExportedObj/
+obj/
+*.svd
+unity/*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+**/test-results/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========== #
+# Other tools #
+# =========== #
+*.iml
+*.iml.meta
+unity/Assets/Plugins/Android/gen
+unity/Assets/Plugins/Android/gen.meta
+unity/.consulo/
+unity/Assets/Editor/Plugins.meta
+unity/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll
+unity/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll.meta
+unity/.vscode/
+unity/Assets/Plugins/Editor/JetBrains*
