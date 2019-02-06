@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AddOns" t="Include">
+          <e p="TobisUnityUtilities" t="Include">
+            <e p="Countdown" t="Include">
+              <e p="Countdown.cs" t="Include" />
+              <e p="CountdownProperty.cs" t="Include" />
+              <e p="CountdownPropertyLoop.cs" t="Include" />
+              <e p="CountdownPropertyOnce.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CountdownLoopPropertyDrawer.cs" t="Include" />
+                <e p="CountdownOncePropertyDrawer.cs" t="Include" />
+                <e p="CountdownPropertyDrawerBase.cs" t="Include" />
+              </e>
+            </e>
+            <e p="EditorHelper" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EditorHelper.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Examples" t="Include">
+              <e p="CountdownExample.cs" t="Include" />
+              <e p="CountdownPropertyExample.cs" t="Include" />
+              <e p="LINQExtensionsExamples.cs" t="Include" />
+              <e p="MathHelperExamples.cs" t="Include" />
+              <e p="MeshCreatorExample.cs" t="Include" />
+              <e p="NoiseOutputValueExample.cs" t="Include" />
+              <e p="RandomBagExample.cs" t="Include" />
+              <e p="RangeExample.cs" t="Include" />
+              <e p="RollingArrayExample.cs" t="Include" />
+              <e p="SingletonEntityManager.cs" t="Include" />
+              <e p="UnityHelperExamples.cs" t="Include" />
+              <e p="XmlHelperExample.cs" t="Include" />
+            </e>
+            <e p="LINQExtensions" t="Include">
+              <e p="LINQExtensions.cs" t="Include" />
+            </e>
+            <e p="MathHelper" t="Include">
+              <e p="MathHelper.cs" t="Include" />
+            </e>
+            <e p="MeshCreator" t="Include">
+              <e p="MeshCreator.cs" t="Include" />
+              <e p="MeshTriangle.cs" t="Include" />
+              <e p="MeshVertex.cs" t="Include" />
+            </e>
+            <e p="NoiseOutputValue" t="Include">
+              <e p="NoiseOutputValue.cs" t="Include" />
+            </e>
+            <e p="RandomBag" t="Include">
+              <e p="RandomBag.cs" t="Include" />
+            </e>
+            <e p="Range" t="Include">
+              <e p="Editor" t="Include">
+                <e p="RangeFloatPropertyDrawer.cs" t="Include" />
+                <e p="RangeIntPropertyDrawer.cs" t="Include" />
+                <e p="RangePropertyDrawerBase.cs" t="Include" />
+              </e>
+              <e p="RangeFloat.cs" t="Include" />
+              <e p="RangeInt.cs" t="Include" />
+            </e>
+            <e p="RollingArray" t="Include">
+              <e p="RollingArray.cs" t="Include" />
+            </e>
+            <e p="Singleton" t="Include">
+              <e p="PersistentSingletonMonoBehaviour.cs" t="Include" />
+              <e p="SelfCreatingSingletonMonoBehaviour.cs" t="Include" />
+              <e p="SingletonMonoBehaviour.cs" t="Include" />
+            </e>
+            <e p="UnityHelper" t="Include">
+              <e p="UnityHelper.cs" t="Include" />
+            </e>
+            <e p="XmlHelper" t="Include">
+              <e p="XmlHelper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="unityExperiments.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_unityExperiments.1787251209.00" t="ExcludeRecursive" />
+  </component>
+</project>
