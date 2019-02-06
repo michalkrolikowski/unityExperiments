@@ -6,7 +6,7 @@ using UnityEngine;
 public class AnimatingWindow : MonoBehaviour {
     Animation cachedAnimation;
 
-    [SerializeField] private float currentAnimTime = 0;
+    [SerializeField] float currentAnimTime = 0;
 
     void Awake() =>
         cachedAnimation = GetComponent<Animation>();
@@ -17,14 +17,12 @@ public class AnimatingWindow : MonoBehaviour {
     }
 
     void ToggleAnimation() {
-        cachedAnimation[cachedAnimation.clip.name].speed =
-            currentAnimTime == 0 ? 1 : currentAnimTime == 1 ? -1 :
+        if (cachedAnimation.isPlaying) {
             cachedAnimation[cachedAnimation.clip.name].speed *= -1;
-
-        if (!cachedAnimation.isPlaying)
-            if (currentAnimTime == 1)
-                cachedAnimation[cachedAnimation.clip.name].time = 1;
-
+        } else {
+            cachedAnimation[cachedAnimation.clip.name].time = currentAnimTime;
+            cachedAnimation[cachedAnimation.clip.name].speed = currentAnimTime >= 1 ? -1 : 1;
             cachedAnimation.Play();
+        }
     }
 }
