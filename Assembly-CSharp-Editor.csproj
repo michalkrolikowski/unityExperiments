@@ -61,6 +61,9 @@
     <Compile Include="Assets\AddOns\TobisUnityUtilities\Range\Editor\RangeFloatPropertyDrawer.cs" />
     <Compile Include="Assets\AddOns\TobisUnityUtilities\Range\Editor\RangeIntPropertyDrawer.cs" />
     <Compile Include="Assets\AddOns\TobisUnityUtilities\Range\Editor\RangePropertyDrawerBase.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -69,6 +72,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

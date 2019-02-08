@@ -85,7 +85,20 @@
     <Compile Include="Assets\AddOns\TobisUnityUtilities\Singleton\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\AddOns\TobisUnityUtilities\UnityHelper\UnityHelper.cs" />
     <Compile Include="Assets\AddOns\TobisUnityUtilities\XmlHelper\XmlHelper.cs" />
+    <Compile Include="Assets\CinemachineExamples\Scenes\Scripting\ScriptingExample.cs" />
+    <Compile Include="Assets\CinemachineExamples\Scenes\Trigger volumes\GenericTrigger.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Scripts\ActivateCameraWithDistance.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Scripts\ActivateCamOnPlay.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Scripts\ExampleHelpWindow.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Scripts\MixingCameraBlend.cs" />
+    <Compile Include="Assets\CinemachineExamples\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\AnimatingWindow.cs" />
+    <Compile Include="Assets\Scripts\CubeMover.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -94,6 +107,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/mike/Documents/unityExperiments/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
